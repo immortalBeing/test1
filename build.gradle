@@ -1,0 +1,15 @@
+import java.lang.invoke.LambdaForm.Compiled;
+
+import com.sun.tracing.dtrace.DependencyClass;
+
+apply plugin:'java'
+apply plugin: 'eclipse'
+repositories {
+	mavenLocal()
+	mavenCentral()
+	maven { url "http://repo.spring.io/release" }
+}
+
+dependencies{
+	compile fileTree(dir: 'lib', include: '*.jar')
+}
