@@ -6,7 +6,7 @@ package com.test.concert;
 import org.aspectj.lang.annotation.Aspect;
 
 /**
- * @author Administrator
+ * @author Administrat or
  *
  */
 @Aspect
