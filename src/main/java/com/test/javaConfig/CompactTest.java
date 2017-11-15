@@ -20,8 +20,12 @@ public class CompactTest {
 	@Autowired
 	private CompactDisc cd;
 	
+	@Autowired
+	BjYbOptionsHelp help;
+	
 	@Test
 	public void test() {
 		cd.play();
+		help.getKeyValue("010106");
 	}
 }
